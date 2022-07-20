@@ -1,0 +1,323 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ffffff;
+  box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+header h1{
+  display: inline-block;
+  margin: 0 calc(64% - 62%);
+}
+
+.header-container {
+  margin-bottom: 30px;
+  padding-top: 32px;
+  padding-left: 18px;
+}
+
+.header-container h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #4e5150;
+}
+
+.formularioContainer{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+
+.main__containerPurchaseOrders {
+  width: 95%;
+  height: 489px;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+  border-radius: 12px;
+}
+
+.main__containerProduct {
+  width: 100%;
+  display: flex;
+  padding: 30px 26px;
+}
+
+.image__container {
+  width: 122px;
+  height: 122px;
+  background: #c4c4c4;
+  border-radius: 13px;
+}
+
+.image__container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 13px;
+}
+
+.main__infoProduct {
+  margin-left: 18px;
+}
+
+.titleProduct {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  margin-bottom: 10px;
+  color: #4e5150;
+}
+
+.actualPrice {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  display: inline-block;
+  margin: 0px 10px 25px 0px;
+  color: #f2994a;
+}
+
+.oldPrice {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+  display: inline-block;
+  text-decoration-line: line-through;
+  color: #4e5150;
+}
+
+.stocks__container {
+  width: 122.8px;
+  height: 49.86px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid #828282;
+  border-radius: 12px;
+}
+
+.stocks__container input {
+  width: 25px;
+  text-align: center;
+  border: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #f2f2f2;
+}
+
+.stocks__btn {
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  color: #828282;
+  border: none;
+  border-radius: 4px;
+  background-color: #e0e0e0;
+}
+
+.container__totalPurchasePrice {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.container__totalPurchasePrice div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0px;
+  border-top: 1px solid #bdbdbd;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: right;
+  color: #333333;
+}
+
+.main__containerInfoUser {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.titleContactInfomationUser {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 10px;
+  color: #333333;
+}
+
+.ContainerDateUser {
+  margin-bottom: 16px;
+}
+.ContainerDateUser p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+  margin-bottom: 7px;
+  color: #4f4f4f;
+}
+
+.ContainerDateUser i {
+  font-size: 20px;
+  color: #828282;
+}
+
+.containerImputDate {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  border: 1px solid #828282;
+  border-radius: 12px;
+}
+
+.containerImputDate input {
+  width: 90%;
+  height: 80%;
+  border: none;
+  padding-left: 10px;
+}
+
+.containerImputDate input:focus-visible {
+  outline: none;
+}
+
+.shippingAddressUser {
+  margin-top: 45px;
+}
+
+.main__containerCountryPostalCode {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Country {
+  width: 139px;
+}
+
+.Country input {
+  width: 64%;
+  padding: 0px;
+}
+
+.Country .arrow {
+  background-color: #e0e0e0;
+  color: #828282;
+  border-radius: 4px;
+}
+
+.main__termsConditions {
+  display: flex;
+  align-items: center;
+}
+
+.main__termsConditions input {
+  width: 16px;
+  height: 15px;
+  margin-right: 7px;
+  border: 1px solid #828282;
+  border-radius: 4px;
+}
+
+.main__termsConditions label {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+  color: #4f4f4f;
+}
+
+.containerButtomEnviar {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.buttonSubmit {
+  width: 166px;
+  height: 54px;
+  margin-top: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  background: #f2994a;
+  border: none;
+  border-radius: 12px;
+}
+
+.buttonSubmit:hover{
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 94px;
+  padding-bottom: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+footer p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #bdbdbd;
+}
+
+
+/*MEDIA QUERY*/
+
+@media (min-width: 1020px) {
+  header h1{
+    margin: 0 calc(64% - 58%);
+  }
+  .main__containerPurchaseOrders{
+    max-width: 383px;
+  }
+
+  .main__containerInfoUser{
+    max-width: 375px;
+  }
+}
+
+@media (min-width: 1400px) {
+  header h1{
+    margin: 0 calc(64% - 47%);
+  }
+
+  .formularioContainer{
+    width: 75%;
+    margin: 0 auto;
+  }
+}

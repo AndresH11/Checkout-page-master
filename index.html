@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+  <link href="./styles/index.css" rel="stylesheet" type="text/css">
+  <title>Checkout Page Master</title>
+</head>
+<body>
+
+  <!--SECCION HEADER-->
+  <header class="header-container">
+  <h1>Checkout</h1>
+  </header>
+  <!--TERMINA SECCION HEADER-->
+
+  <!--SECCION MAIN-->
+  <main class="main__container">
+    <form action="#" method="post" class="formularioContainer">
+      <section class="main__containerPurchaseOrders">  <!--CONTENEDOR PRINCIPAL DE LOS PRODUCTOS-->
+        <div class="main__containerProduct"> <!--CONTENEDOR PRINCIPAL DEL PRIMER PRODUCTO-->
+          <figure class="image__container">  <!--CONTENEDOR DE LA IMAGEN DEL PRODUCTO-->
+            <img src="./img/photo1.png" alt="producto">
+          </figure>
+  
+          <div class="main__infoProduct"> <!--CONTENEDOR DE LA INFORMACION DEL BASICA DE LA COMPRA-->
+  
+            <p class="titleProduct">Vintage Backbag</p>
+            <p class="actualPrice">$54.99</p>
+            <p class="oldPrice">$94.99</p>
+  
+            <div class="stocks__container"> <!--CONTENEDOR DE LOS STOCKS-->
+              <button class="stocks__btn" type="button">-</button>
+              <input type="number" class="inputStocks" value="1" name="stockProducOne" />
+              <button class="stocks__btn" type="button">+</button>
+            </div>
+          </div>
+        </div> <!--FIN DEL CONTENEDOR PRINCIPAL DEL PRIMER PRODUCTO-->
+        
+        <div class="main__containerProduct"> <!--CONTENEDOR PRINCIPAL DEL SEGUNDO PRODUCTO-->
+          <figure class="image__container">  <!--CONTENEDOR DE LA IMAGEN DEL PRODUCTO-->
+            <img src="./img/photo2.png" alt="producto">
+          </figure>
+  
+          <div class="main__infoProduct"> <!--CONTENEDOR DE LA INFORMACION DEL BASICA DE LA COMPRA-->
+  
+            <p class="titleProduct">Levi Shoes</p>
+            <p class="actualPrice">$74.99</p>
+            <p class="oldPrice">$124.99</p>
+  
+            <div class="stocks__container"> <!--CONTENEDOR DE LOS STOCKS-->
+              <button class="stocks__btn">-</button>
+              <input type="number" class="inputStocks" value="1"  name="stockProducTwo"/>
+              <button class="stocks__btn">+</button>
+            </div>
+          </div>
+        </div> <!--FIN DEL CONTENEDOR PRINCIPAL DEL SEGUNDO PRODUCTO-->
+        <div class="container__totalPurchasePrice">
+          <div class="info__totalPurchasePrice">
+            <p>Shipping</p>
+            <p>$19</p>
+          </div>
+          <div class="info__totalPurchasePrice">
+            <p>Total</p>
+            <p>$148.98</p>
+          </div>
+        </div>
+      </section> <!-- FIN DEL CONTENEDOR PRINCIPAL DE LOS PRODUCTOS-->
+
+      <section class="main__containerInfoUser"> <!--CONTENEDOR PRINCIPAL DE LA INFORMACION DEL USUARIO-->
+        <div class="contactInfomationUser">
+          <p class="titleContactInfomationUser">Contact infomation</p>
+          <div class="ContainerDateUser"> <!--DATO EMAIL DEL USUARIO-->
+            <p>E-mail</p>
+            <div class="containerImputDate">
+              <i class='bx bxs-envelope'></i>
+              <input type="email" name="emailUser" placeholder="Enter your email...">
+            </div>
+          </div> <!--FIN DATO EMAIL DE USUSARIO-->
+
+          <div class="ContainerDateUser"> <!--DATO TELEFONO DEL USUARIO-->
+            <p>Phone</p>
+            <div class="containerImputDate">
+              <i class='bx bxs-phone'></i>
+              <input type="number" name="phoneUser" placeholder="Enter your phone...">
+            </div>
+          </div> <!--FIN DATO TELEFONO DEL USUARIO-->
+        </div>
+
+        <div class="shippingAddressUser"> <!--SECCION SHIPPIN ADDRESS-->
+          <p class="titleContactInfomationUser">Shipping address</p> <!--TITLE-->
+          <div class="ContainerDateUser"> <!--DATO FULL NAME DEL USUARIO-->
+            <p>Full name</p>
+            <div class="containerImputDate">
+              <i class='bx bxs-user-circle'></i>
+              <input type="text" name="FullNameUser" placeholder="Enter your full name...">
+            </div>
+          </div> <!--FIN DATO FULL NAME DEL USUSARIO-->
+
+          <div class="ContainerDateUser"> <!--DATO ADDRESS DEL USUARIO-->
+            <p>Address</p>
+            <div class="containerImputDate">
+              <i class='bx bxs-home'></i>
+              <input type="text" name="addressUser" placeholder="Your address..">
+            </div>
+          </div> <!--FIN DATO ADDRESS DEL USUSARIO-->
+
+          <div class="ContainerDateUser"> <!--DATO CITY DEL USUARIO-->
+            <p>City</p>
+            <div class="containerImputDate">
+              <i class='bx bxs-city bx-flip-horizontal' ></i>
+              <input type="text" name="cityUser" placeholder="Your city..">
+            </div>
+          </div> <!--FIN DATO CITY DEL USUSARIO-->
+
+          <div class="main__containerCountryPostalCode">
+            <div class="ContainerDateUser Country"> <!--DATO COUNTRY DEL USUARIO-->
+              <p>Country</p>
+              <div class="containerImputDate">
+                <i class='bx bx-world' ></i>
+                <input type="text" name="countryUser" placeholder="Your country..">
+                <i class='bx bx-chevron-down arrow'></i>
+              </div>
+            </div> <!--FIN DATO COUNTRY DEL USUSARIO-->
+
+            <div class="ContainerDateUser Country"> <!--DATO COUNTRY DEL USUARIO-->
+              <p>Postal code</p>
+              <div class="containerImputDate">
+                <i class='bx bxs-shopping-bag'></i>
+                <input type="text" name="PostalCodeUser" placeholder="Postal code..">
+              </div>
+            </div> <!--FIN DATO COUNTRY DEL USUSARIO-->
+          </div>
+          <div class="main__termsConditions">
+            <input type="checkbox" name="termsConditions">
+            <label for="termsConditions">Save this information for next time</label>
+          </div>
+          <div class="containerButtomEnviar">
+            <button type="button" class="buttonSubmit">Continue</button>
+          </div>
+        </div> <!-- FIN DE SECCION SHIPPIN ADDRESS-->
+      </section> <!--FIN DEL CONTENEDOR PRINCIPAL DE LA INFORMACION DEL USUARIO-->
+    </form>
+  </main>
+  <!--TERMINA SECCION MAIN-->
+
+  <footer>
+    <p>created by AndresH11 - devChallenges.io</p>
+  </footer>
+</body>
+</html>
