@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!-- Please update value in the {}  -->
 
 <h1 align="center">{Your project name}</h1>
@@ -88,3 +89,6 @@ $ npm start
 - Website [your-website.com](https://{your-web-site-link})
 - GitHub [@your-username](https://{github.com/your-usermame})
 - Twitter [@your-twitter](https://{twitter.com/your-username})
+=======
+# Checkout-page-master
+>>>>>>> d62a637f475a5596b829adf7aa42545823b53f1c
